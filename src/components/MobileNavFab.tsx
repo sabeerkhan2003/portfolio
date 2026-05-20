@@ -23,7 +23,6 @@ function getTopForScroll(scrollY: number) {
   }
   return STICKY_TOP + safeTop;
 }
-
 function defaultPosition(scrollY = 0): Position {
   return { x: EDGE, y: getTopForScroll(scrollY) };
 }
